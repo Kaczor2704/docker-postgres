@@ -7,7 +7,7 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_PASSWORD: 'coderslab'
+      POSTGRES_PASSWORD: 'secret'
     volumes:
       - database_data:/var/lib/postgresql/data
 
